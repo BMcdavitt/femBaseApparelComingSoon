@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+  <script src="index.js"></script>
+</head>
+
+<body>
+  <main>
+    <div class="logo">
+      <img src="./images/logo.svg" alt="logo">
+    </div>
+    <div class="photoMobile">
+      <img src="./images/hero-mobile.jpg" alt="Your Hero">
+    </div>
+    <div class="photoDesktop">
+      <img src="./images/hero-desktop.jpg" alt="Your Hero">
+    </div>
+
+    <div>
+    <div class="largeText">
+      <span class="largeTextEmphasis">We're</span> <span class="largeTextBold">coming soon</span>
+    </div>
+    <div class="regulatText">
+      Hello fellow shoppers! We're currently building our new fashion store.
+      Add your email below to stay up-to-date with announcements and our launch deals.
+    </div>
+    <div class="emailForm">
+      <input class="emailLine" id="email" type="text" placeholder="Email Address">
+      <button onclick="submitEmail()">
+        <div class='buttonArrow'></div>
+      </button>
+      <div class="errorMessage" id="errorMessage">Please provide a valid email</div>
+      <div class="errorIcon" id="errorIcon">
+        <img src="./images/icon-error.svg" alt="error icon">
+      </div>
+    </div>
+    </div>
+
+
+  </main>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://bmcdavitt.github.io/homepage/">Bill McDavitt</a>.
+    </p>
+  </footer>
+</body>
+
+</html>
