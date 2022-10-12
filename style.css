@@ -162,6 +162,8 @@ button:hover {
     width: 100%;
 
     justify-items: center;
+
+    background-image: url('./images/bg-pattern-desktop.svg');
   }
 
   .photoMobile {
