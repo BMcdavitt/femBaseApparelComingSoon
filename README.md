@@ -50,7 +50,7 @@ Users should be able to:
 
 ### Useful resources
 
-- [Email Varification Logic](https://stackoverflow.com/questions/46155/how-can-i-validate-an-email-address-in-javascript) - I was able to use this function exactly as is to do my email validation.
+- [Email Verification Logic](https://stackoverflow.com/questions/46155/how-can-i-validate-an-email-address-in-javascript) - I was able to use this function exactly as is to do my email validation.
 
 ## Author
 
